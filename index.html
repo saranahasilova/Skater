@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 <head>
+	
+	<link href="./fonts/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Skater</title>
 </head>
 <body>
@@ -9,26 +14,31 @@
 	<div class="all_content">
 		<div id="home">
 			<div class="header">
-				<div id="logo_side">SKATER</div>
+				<div id="logo_side">
+					<h3 class="logo">SKATER</h3></div>
 					<div class="nav_side">
 						<!-- NAVIGATION CONTENT  -->
-						<nav>
-							<a href="#home">Home</a> 
+					
+							<a href="#home" class="active">Home</a> 
 							<a href="#services">Services</a> 
-							<a href="#about" class="inner_nav">About
+							<a href="#about" class="dropdown_content">About
 								<!-- INNER NAVIGATION CONTENT -->
 								<a href="#team">Team</a>
 								<a href="#pricing">Pricing</a>
-								<a href="#faq">FAQ</a>
-								<a href="#more_links">More links</a>
-							</a> 
+								<a href="#faq">FAQ</a>		
+								<!-- INNER NAVIGATION CONTENT -->			
+							</a>
 							<a href="#testimonials">Testimonials</a>
 							<a href="#blog">Blog</a>
 							<a href="#contact">Contact</a>
-						</nav>
+
+						<!-- NAVIGATION CONTENT  -->
 					</div>
+				</div>
 					<div class="slider">
 						<div class="img_slide">
+							<!-- <img src="./images/hero_2.jpg"> -->
+							<!-- <img src="./images/xhero_3.jpg.pagespeed.ic.EWGmPLuLZr.jpg"> -->
 							<h1>NEW GENERATION SKATING</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -38,19 +48,357 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<button>Get in touch</button>
 						</div>
+					</div>				
+		</div>
+		<div id="services">
+			<div class="columns_head">
+				<h2>SERVICES</h2>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere at delectus laudantium, deserunt, atque eveniet. Voluptatem, fuga quos rerum inventore.</p>
+			</div>
+			<div class="first_column">
+				<div class="up_col">					
+					<i class="fas fa-user"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+				<div class="down_col">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+			</div>
+			<div class="second_column">
+				<div class="up_col">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+				<div class="down_col">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+			</div>
+			<div class="third_column">
+				<div class="up_col">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+				<div class="down_col">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<h3>SKATE FOR BEGINNER</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolores voluptas obcaecati quo consequuntur mollitia facilis.</p>
+				</div>
+			</div>
+			<div class="performance">
+				<div class="image_side">
+					<img src="./images/ximg_1.jpg.pagespeed.ic.JbUOq9Qc1a.jpg">
+				</div>
+				<div class="text_side_right">
+					<h2>MY BEST PERFORMANCE</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+					<p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+					<ul>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mentor">
+				<div class="text_side_left">
+					<h2>MY BEST PERFORMANCE</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+					<p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+					<ul>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum dolor.</li>
+					</ul>
+				</div>
+				<div class="image_side">
+					<img src="./images/ximg_2.jpg.pagespeed.ic.6dXq3svVDD.jpg">
+				</div>
+			</div>
+		</div>
+		<div id="about">
+			<div class="video"></div>
+			<div class="counter_row">
+				<div class="first_count">
+					<span class="digit"></span>
+					<span class="line"></span>
+					<span class="text"></span>
+				</div>
+				<div class="second_count">
+					<span class="digit"></span>
+					<span class="line"></span>
+					<span class="text"></span>
+				</div>
+				<div class="third_count">
+					<span class="digit"></span>
+					<span class="line"></span>
+					<span class="text"></span>
+				</div>
+				<div class="fourth_count">
+					<span class="digit"></span>
+					<span class="line"></span>
+					<span class="text"></span>
+				</div>
+			</div>
+			<div id="team">
+				<div class="team_header">
+					<h2>OUR TEAM</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere at delectus laudantium, deserunt, atque eveniet. Voluptatem, fuga quos rerum inventore.</p>
+				</div>				
+				<div class="block_row">
+					<div class="block_one">
+						<img src="./images/xperson_1.jpg.pagespeed.ic.cOJUXL1PUR.jpg" class="team_image">
+						<h3 class="team_name">JEAN SMITH</h3>
+						<span class="team_role">SKATEBOARD TRAINER</span>
+						<div class="social_block">
+							<a href="#">
+								<i class="fab fa-facebook"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-instagram-square"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+						</div>
+					</div>
+					<div class="block_two">
+						<img src="./images/xperson_2.jpg.pagespeed.ic.SXHpVGMa7g.jpg" class="team_image">
+						<h3 class="team_name">JEAN SMITH</h3>
+						<span class="team_role">SKATEBOARD TRAINER</span>
+						<div class="social_block">
+							<a href="#">
+								<i class="fab fa-facebook"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-instagram-square"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+					</div>
+					<div class="block_three">
+						<img src="./images/xperson_3.jpg.pagespeed.ic.X36VI035mo.jpg" class="team_image">
+						<h3 class="team_name">JEAN SMITH</h3>
+						<span class="team_role">SKATEBOARD TRAINER</span>
+						<div class="social_block">
+							<a href="#">
+								<i class="fab fa-facebook"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-instagram-square"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter-square"></i>
+							</a>
 					</div>
 				</div>
+			</div>
+			<div id="pricing">
+				<div>
+					<h1>SESSION PRICING</h1>
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae temporibus tenetur vitae iusto suscipit alias, laudantium, porro unde tempora.</p>
+				</div>
+				<div class="pricing_blocks">
+					<div class="pricing_block_one">
+						<h3 class="pricing_title">Basic</h3>
+						<span class="price">$47/year</span>
+						<ul>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+						</ul>
+						<button>Buy Now</button>
+					</div>
+					<div class="pricing_block_two">
+						<h3 class="pricing_title">Basic</h3>
+						<span class="price">$47/year</span>
+						<ul>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+						</ul>
+						<button>Buy Now</button>
+					</div>
+					<div class="pricing_block_three">
+						<h3 class="pricing_title">Basic</h3>
+						<span class="price">$47/year</span>
+						<ul>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+							<li>Officia quaerat eaque neque</li>
+						</ul>
+						<button>Buy Now</button>
+					</div>
+				</div>
+
+			</div>
+			<div id="faq">
+				<h2 class="faq_title"></h2>
+				<div class="faq_1">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>
+				<div class="faq_2">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>	
+				<div class="faq_3">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>	
+				<div class="faq_4">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>	
+				<div class="faq_5">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>	
+				<div class="faq_6">
+					<h3>FREQUENTLY ASK QUESTIONS
+                     CAN I ACCEPT BOTH PAYPAL AND STRIPE?</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+				</div>					
+			</div>			
 		</div>
-		<div id="services"></div>
-		<div id="about"></div>
-		<div id="testimonials"></div>
-		<div id="blog"></div>
-		<div id="contact"></div>
-		<div id="footer"></div>
-		
+		<div id="testimonials">
+			<h1>TESTIMONIAL</h1>
+			<div class="testimonial_slider">
+				<div class="testimonial_block_one">
+					<img src="./images/xperson_1.jpg.pagespeed.ic.cOJUXL1PUR.jpg" class="team_image">
+					<span class="testimonial_name"></span>
+					<p class="testimonial_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			<div class="testimonial_block_two">
+				<img src="./images/xperson_1.jpg.pagespeed.ic.cOJUXL1PUR.jpg" class="team_image">
+					<span class="testimonial_name"></span>
+					<p class="testimonial_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="testimonial_block_three">
+				<img src="./images/xperson_1.jpg.pagespeed.ic.cOJUXL1PUR.jpg" class="team_image">
+					<span class="testimonial_name"></span>
+					<p class="testimonial_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			</div>			
+		</div>
+		<div id="blog">
+			<div class="blog_title">
+				<span>LATEST BLOG POSTS</span>
+				<h1>OUR BLOG</h1>
+			</div>
+			<div class="blog_one">
+				<img class="blog_image" src="./images/hero_2.jpg"></img>
+				<h2 class="image_title">HOW TO FIND GOLD IN MINING</h2>
+				<span class="posted_time">JANUARY 18, 2019 BY JAMES COOPER</span>
+				<p class="image_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+				<button>Read More</button>
+			</div>
+			<div class="blog_one">
+				<img class="blog_image" src="./images/ximg_1.jpg.pagespeed.ic.JbUOq9Qc1a.jpg"></img>
+				<h2 class="image_title">HOW TO FIND GOLD IN MINING</h2>
+				<span class="posted_time">JANUARY 18, 2019 BY JAMES COOPER</span>
+				<p class="image_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+				<button>Read More</button>
+			</div>
+		</div>
+		<div id="contact">
+			<div class="contact_title">
+				<span>GET IN TOUCH</span>
+				<h1>CONTACT ME</h1>
+			</div>
+			<div class="contact_form">
+				<form action="#">			  
+				  <input type="text" id="fname" name="fname" value="First Name">			 
+				  <input type="text" id="lname" name="lname" value="Last Name">
+				  <input type="email" name="email">
+				  <textarea  name="message" rows="4" cols="50" value="Write your message"></textarea>
+				  <input type="submit" value="Send Messages">
+			    </form>
+			</div>
+			<div class="details">
+				<h2>NEED TO KNOW MORE ON DETAILS. GET IN TOUCH</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, distinctio! Harum quibusdam nisi, illum nulla aspernatur aut quidem aperiam, quae non tempora recusandae voluptatibus fugit impedit.</p>
+				<button>GET START</button>
+			</div>
+			<div class="contact_blocks">
+				<div class="about_us">
+					<h2>About Us</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+				</div>
+				<div class="features">
+					<h2>Features</h2>
+					<ul>
+						<li>About Us</li>
+						<li>About Us</li>
+						<li>About Us</li>
+						<li>About Us</li>
+						<li>About Us</li>
+						<li>About Us</li>
+					</ul>
+				</div>
+				<div class="newsletter">
+					<h2>SUBSCRIBE TO NEWSLETTER</h2>
+					<input type="email" name="email" value="Enter Email">
+					<button>Subscribe</button>
+					<div class="follow">
+						
+					</div>
+					<h2>FOLLOW US</h2>
+					<div class="social_blocks">
+						<a href="#">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="footer">
+				<span>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</span>
+			</div>
+		</div>		
 	</div>
 	<!-- ENDED WBSITE CONTENT HERE -->
-
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
